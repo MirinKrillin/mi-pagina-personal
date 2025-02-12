@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <meta property="og:title" content="Mi Página Personal">
+    <meta property="og:description" content="Mi página personal, donde puedes ver mi currículum, mis gustos, productos y más.">
+    <meta property="og:image" content="ruta/a/tu/imagen-de-previa.jpg">
+    <meta property="og:url" content="URL-de-tu-página">
+    <meta name="twitter:card" content="summary_large_image">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        section {
+            margin: 20px;
+        }
+        .contenedor {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .caja {
+            width: 300px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+        img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #333;
+            color: white;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .social-link {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .social-link:hover {
+            text-decoration: underline;
+        }
+        .cv-link {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .cv-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>Mi Página Personal</header>
+    
+    <section>
+        <h2>Sobre Mí</h2>
+        <p><strong>Nombre:</strong> Alan Moreno</p>
+        <p><strong>Descripción:</strong> Estudiante en Ingenieria en sistemas</p>
+    </section>
+    
+    <section>
+        <h2>Currículum Vitae</h2>
+        <a href="solicitud-de-empleo.pdf" target="_blank" class="cv-link">Ver mi CV</a>
+    </section>
+    
+    <section>
+        <h2>Mis Gustos</h2>
+        <ul>
+            <li>Videojuegos</li>
+            <li>Entrenar cualquier deporte</li>
+            <li>Escuchar música</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Productos o Servicios</h2>
+        <div class="contenedor">
+            <div class="caja">
+                <h3>GPU-3070RTX</h3>
+                <p>Impulsada por la arquitectura NVIDIA Ampere, la GPU NVIDIA RTX 3070 ofrece 8 GB de memoria GDDR6, 5888 núcleos CUDA y 46 núcleos RT. Con la capacidad de ejecutar resoluciones 4K, esta tarjeta funciona mejor en 1440p, además de que es compatible con DirectX 12 Ultimate para aprovechar al máximo los juegos más exigentes.</p>
+            </div>
+            <div class="caja">
+                <h3>CPU-AMD Ryzen 5 5600g</h3>
+                <p>El AMD Ryzen 5 5600G es un procesador con gráficos integrados y 6 núcleos con el que podrás realizar un sinfín de tareas a la vez. Esta CPU es compatible con el socket AM4 y es capaz de alcanzar hasta los 4.4GHz.</p>
+            </div>
+            <div class="caja">
+                <h3>Kingston SSD NV2</h3>
+                <p>Kingston SSD NV2, Capacidad: 1000 GB, Factor de Forma: M.2 2280, Interfaz: NVMe PCIe Gen 4.0 x 4 Carriles, Lectura: 3500MB/s y Escritura: 2100MB/s, Numero de Parte: SNV2S/1000G.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Mis Hobbies</h2>
+        <ul>
+            <li>Entrenar natación</li>
+            <li>Jugar videojuegos en PC</li>
+            <li>Ir al gimnasio</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Lo que más me gusta hacer</h2>
+        <p>Disfruto mucho estar con mis perros y sacarlos a pasear cuando puedo, también jugar con ellos.</p>
+    </section>
+    
+    <section>
+        <h2>Galería</h2>
+        <div class="contenedor">
+            <img src="img1.jpg" alt="Imagen 1">
+            <img src="img2.jpg" alt="Imagen 2">
+            <img src="img3.jpg" alt="Imagen 3">
+            <img src="img4.jpg" alt="Imagen 4">
+            <img src="img5.jpg" alt="Imagen 5">
+        </div>
+    </section>
+    
+    <section>
+        <h2>Redes Sociales</h2>
+        <p>
+            <a href="https://www.facebook.com/alan.moreno.5872/?locale=es_L" class="social-link">Facebook</a> | 
+            <a href="https://www.instagram.com/mirinkrillin/" class="social-link">Instagram</a> | 
+        </p>
+    </section>
+    
+    <footer>
+        &copy; 2025 - Mi Página Personal
+    </footer>
+</body>
+</html>
